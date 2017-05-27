@@ -1,0 +1,23 @@
+{
+    "extends": "react-app",
+    "plugins": [
+      "react"
+    ],
+    "rules": {
+        "eqeqeq": "off",
+        "curly": "error",
+        "camelcase": [
+          2,
+          {
+            "properties": "never"
+          }
+        ],
+        "no-var": "warn",
+        "keyword-spacing": [ "warn" ],
+        "comma-spacing": [ "warn" ],
+        "key-spacing": [ "warn", {"beforeColon": false}],
+        "semi-spacing": [ "warn", {"before": false, "after": true}],
+        "react/no-unused-prop-types": ["warn"],
+        "space-infix-ops": [ "warn" ]
+    }
+}
